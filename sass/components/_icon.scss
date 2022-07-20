@@ -7,9 +7,9 @@
     left: 0;
 
 }
+
 .icon {
     fill: currentColor;
-
     margin-right: 10px;
     align-items: center;
 }
@@ -26,13 +26,11 @@
 
 }
 
-
 .modal-icons {
     fill: var(--black-bg);
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
     transform: var(--anim-fast);
     position: absolute;
-
     bottom: 11px;
     left: 12px;
 
@@ -109,9 +107,6 @@
 }
 
 
-
-
-
 .sicial-media-icon {
     transition-property: color,
         cubic-bezier(0.4, 0, 0.2, 1), background-color;
@@ -133,11 +128,8 @@
     height: 44px;
     color: var(--grey-blue);
     border-radius: 50%;
-
     transition: color, background-color, 250ms,
         cubic-bezier(0.4, 0, 0.2, 1), ease-in-out;
-
-
         transition-property: color, background-color,
         cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: var(--anim-fast);
@@ -160,12 +152,6 @@
 }
 
 
-
-
-
-
-
-
 .client-icon {
     display: flex;
     justify-content: center;
@@ -176,23 +162,11 @@
     fill: currentColor;
 }
 
-
-
-}
-
-
-
-
-.client-list:hover,
-.client-list:focus {
-    color: var(--blue);
-    border-color: var(--blue);
 }
 
 
 .footer-media-icon {
     fill: var(--white);
-
     transition-property: color, background-color,
         cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: var(--anim-fast);

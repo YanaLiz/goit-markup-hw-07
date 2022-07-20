@@ -32,13 +32,12 @@ background-color: var(--grey-bg);
     background: var(--white);
     border-bottom: 1px solid var(--crem);
     transition-property: color, box-shadow, background-color,
-        cubic-bezier(0.4, 0, 0.2, 1);
+    cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: var(--anim-fast);
     transition-timing-function: ease-in-out;
 
     &:hover,
     &:focus {
-
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }

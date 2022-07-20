@@ -6,6 +6,7 @@
 .form {
     display: inline-block;
 }
+
 .e-mail-input {
     display: flex;
     margin-left: auto;
@@ -16,7 +17,6 @@
 .form-modal {
     outline: transparent;
     resize: none;
-
     padding: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -26,13 +26,11 @@
 
 .label-modal {
     position: relative;
-
     outline: transparent;
     resize: none;
     border: none;
     display: flex;
     flex-direction: column;
-    ;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
@@ -44,7 +42,6 @@
     width: 448px;
     height: 40px;
     margin-top: 28px;
-
     padding-right: 5px;
     padding-left: 35px;
     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
@@ -55,7 +52,6 @@
     border-color: var(--blue);
     transition: var(--anim-fast);
 }
-
 
 &:focus~.user-email {
     color: var(--blue);
@@ -101,19 +97,15 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
-
     width: 16px;
     height: 15px;
     outline: 2px solid var(--black-text);
     outline-offset: -2px;
     border-radius: 2px;
-
     transition: outline-color 250ms, background-color 250ms;
 }
 
 .form-checkbox-input:checked+.form-checkbox-custom-checkbox {
-
     background-color: var(--blue);
     outline-color: var(--blue);
     background-image: url(../imeges/icons/form/icon\ check.svg);
@@ -162,8 +154,6 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
 
-
-
 }
 
 .span-text-up {
@@ -205,13 +195,12 @@
     background-color: var(--blue);
     outline: transparent;
     border-color: var(--blue);
-
-}
-
-.span-btn:focus {
+&:focus {
     background-color: var(--bluedark);
     transition: border-color var(--anim-fast);
 }
+}
+
 
 .text-up {
     font-family: 'Roboto';
@@ -237,6 +226,5 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-
     color: var(--grey-text);
 }
