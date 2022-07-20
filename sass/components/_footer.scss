@@ -1,0 +1,53 @@
+//  Одинадцятий паршал
+
+
+.footer-media {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+
+& {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+}
+
+.footer-sicial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: color, border-color,
+        cubic-bezier(0.4, 0, 0.2, 1), background-color;
+    transition-duration: var(--anim-fast);
+    transition-timing-function: ease-in-out;
+
+&:hover,
+&:focus {
+    background-color: var(--blue);
+}
+
+&:hover,
+&:focus {
+    fill: currentColor;
+}
+
+&:hover .footer-media-icon,
+&:focus .footer-media-icon {
+    fill: var(--white);
+}
+}
+
+
+

@@ -1,0 +1,23 @@
+/* Четвертий паршал */
+
+
+.header-block {
+    max-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: var(--white);
+
+}
+
+.header {
+    display: flex;
+    display: inline-block;
+    border-bottom: 1px solid var(--grey);
+
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
