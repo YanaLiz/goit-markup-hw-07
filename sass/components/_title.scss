@@ -2,6 +2,9 @@
 
 
 
+.regular-customers{
+    @include section;
+}
 
 .client-list {
     width: 100%;

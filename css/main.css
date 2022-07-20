@@ -866,8 +866,15 @@ address {
   margin-left: 0;
 }
 
-.section.comanda {
+.comanda {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--grey-bg);
+}
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-desc {
@@ -1211,6 +1218,11 @@ address {
   color: var(--grey-text);
 }
 
+.tasks {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .label {
   overflow-x: visible;
   bottom: 0;
@@ -1229,6 +1241,8 @@ address {
 }
 
 .innert {
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-top: 0;
 }
 
@@ -1315,6 +1329,11 @@ address {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.regular-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .client-list {
@@ -1441,6 +1460,8 @@ address {
 
 /* Четвертий паршал */
 .header-block {
+  padding-top: 94px;
+  padding-bottom: 94px;
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;

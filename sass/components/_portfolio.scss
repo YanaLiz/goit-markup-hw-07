@@ -1,6 +1,10 @@
 // Тринадцятий паршал
 
 
+
+.portfolio{
+    @include section;
+}
 .portfolio-desc {
 
     font-size: 18px;
