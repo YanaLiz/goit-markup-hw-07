@@ -5,15 +5,60 @@
 
 .tasks{
     @include section;
+
+&__detali.about-text {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+
 }
-.label {
-    overflow-x: visible;
-    bottom: 0;
-    color: var(--white);
+
+&__title.title-list {
+    display: inline-block;
+    width: 270px;
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+&__letter.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    background-color: var(--grey-bg);
 }
 
 
-.meta {
+&__name.about-title {
+    color: var(--black-text);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+&__text.about-list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0px;
+}
+
+}
+
+
+.program {
+    @include section;;
+    padding-top: 0;
+&__meta {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 14px;
@@ -24,31 +69,13 @@
     color: var(--white);
 }
 
-
-.innert {
-    @include section;;
-    padding-top: 0;
+&__card.label{
+    overflow-x: visible;
+    bottom: 0;
+    color: var(--white);
 }
 
-.about {
-
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    color: var(--black-text);
-    margin-bottom: 50px;
-text-align: center;
-}
-.about-text {
-    display: flex;
-    align-content: stretch;
-    justify-content: space-evenly;
-
-}
-
-.about-a {
+&__list {
 position: relative;
     display: flex;
     gap: 30px;
@@ -56,23 +83,9 @@ position: relative;
 
 }
 
-
-.about-title {
-    color: var(--black-text);
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 1.7;
-    font-weight: 700;
-    margin-bottom: 10px;
 }
 
-.about-list {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.7;
-    margin: 0px;
-}
+
 
 .title {
     font-family: "Roboto";
