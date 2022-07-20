@@ -50,3 +50,14 @@ background-color: var(--grey-bg);
     letter-spacing: 0.06em;
     color: var(--black-text);
 }
+
+
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    margin-bottom: 50px;
+
+}
