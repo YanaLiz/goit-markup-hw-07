@@ -707,6 +707,121 @@ address {
   fill: var(--white);
 }
 
+.footer {
+  background-color: var(--black-bg);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.addres {
+  margin-top: 9px;
+}
+
+.addres:last-child {
+  margin-bottom: 0px;
+}
+
+.footer-logo {
+  color: var(--white);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+
+.footer-addres {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--white);
+  margin-bottom: 9px;
+}
+
+.span {
+  color: var(--white);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.fot-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  background-color: var(--blue);
+  border-radius: 4px;
+  border-color: var(--blue);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.foott {
+  margin-top: 20px;
+}
+
+.contakt-link {
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+.input-footer {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--black-bg);
+  padding-left: 16px;
+  color: var(--white);
+}
+
+.fot-icon {
+  fill: var(--white);
+  margin-left: 10px;
+}
+
+.bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.fotter {
+  margin-left: 70px;
+}
+
+.strong {
+  margin-bottom: 12px;
+}
+
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -723,7 +838,7 @@ address {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 15px;
+  gap: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -736,6 +851,32 @@ address {
   border-left: 1px solid var(--crem-grey);
   border-right: 1px solid var(--crem-grey);
   border-bottom: 1px solid var(--crem-grey);
+}
+
+.team-itt {
+  display: inline-block;
+  background-color: var(--white);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-itt:last-child {
+  margin-right: 0px;
+}
+
+.team-cardi:nth-child(-n+4) {
+  margin-left: 0;
+}
+
+.team-cardi {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white);
+}
+
+.section.comanda {
+  background-color: var(--grey-bg);
 }
 
 .portfolio-desc {
@@ -766,6 +907,24 @@ address {
   width: 270px;
   height: 120px;
   background-color: var(--grey-bg);
+}
+
+.picture {
+  display: block;
+  background: var(--white);
+  border-bottom: 1px solid var(--crem);
+  -webkit-transition-property: color, background-color, cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow;
+  transition-property: color, background-color, cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow;
+  transition-property: color, box-shadow, background-color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, box-shadow, background-color, cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow;
+  -webkit-transition-duration: var(--anim-fast);
+          transition-duration: var(--anim-fast);
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+.picture:hover, .picture:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-list {
@@ -803,6 +962,23 @@ address {
           align-items: center;
   margin-right: 8px;
   margin-bottom: 50px;
+}
+
+.teksting {
+  font-size: 16px;
+  font-weight: 1.87;
+  color: var(--grey-text);
+}
+
+.form {
+  display: inline-block;
+}
+
+.e-mail-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
 }
 
 .form-modal {
@@ -969,9 +1145,86 @@ address {
   background: rgba(47, 48, 58, 0.8);
 }
 
+.span-text-up {
+  border-bottom: 1px solid currentColor;
+  color: var(--blue);
+  display: block;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.span-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--black-text);
+}
+
+.span-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--white);
+  background-color: var(--blue);
+  outline: transparent;
+  border-color: var(--blue);
+}
+
+.span-btn:focus {
+  background-color: var(--bluedark);
+  -webkit-transition: border-color var(--anim-fast);
+  transition: border-color var(--anim-fast);
+}
+
+.text-up {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--grey-text);
+  margin-left: 10px;
+}
+
+.user-cont {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--grey-text);
+}
+
 .label {
   overflow-x: visible;
   bottom: 0;
+  color: var(--white);
 }
 
 .meta {
@@ -997,6 +1250,18 @@ address {
   line-height: 1.16;
   color: var(--black-text);
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .about-a {
@@ -1027,6 +1292,28 @@ address {
   margin: 0px;
 }
 
+.title {
+  font-family: "Roboto";
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.title-title {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.text {
+  color: var(--white);
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -1040,12 +1327,147 @@ address {
   margin-right: auto;
 }
 
+.client-list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--white);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition-property: color, border-color, cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, border-color, cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: var(--anim-fast);
+          transition-duration: var(--anim-fast);
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid var(--grey-blue);
+  color: var(--grey-blue);
+  border-radius: 4px;
+}
+
+.client-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.client {
+  width: 170px;
+  height: 92px;
+  fill: var(--grey-blue);
+}
+.client {
+  width: 100%;
+  height: 100%;
+}
+.client:not(:last-child) {
+  margin-right: 30px;
+}
+
+.list {
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 50px;
+}
+.list:last-child {
+  margin-right: 0px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-list {
+  display: inline-block;
+  width: 270px;
+  margin-right: 30px;
+}
+
+.title-list:last-child {
+  margin-right: 0px;
+}
+
+.ul {
+  margin-right: 50px;
+}
+
+.top {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navilist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+  margin-right: 93px;
+}
+
 /* Четвертий паршал */
 .header-block {
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   color: var(--white);
+}
+
+.box {
+  background-color: var(--black-bg);
+}
+
+.block {
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  width: 696px;
+  margin: 0px auto;
 }
 
 .header {

@@ -2,6 +2,17 @@
 
 
 
+
+.form {
+    display: inline-block;
+}
+.e-mail-input {
+    display: flex;
+    margin-left: auto;
+}
+
+
+
 .form-modal {
     outline: transparent;
     resize: none;
@@ -155,3 +166,77 @@
 
 }
 
+.span-text-up {
+    border-bottom: 1px solid currentColor;
+    color: var(--blue);
+    display: block;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.span-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--black-text);
+
+}
+
+.span-btn {
+    width: 200px;
+    height: 50px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--blue);
+    outline: transparent;
+    border-color: var(--blue);
+
+}
+
+.span-btn:focus {
+    background-color: var(--bluedark);
+    transition: border-color var(--anim-fast);
+}
+
+.text-up {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+    margin-left: 10px;
+}
+
+
+.user-cont {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+    color: var(--grey-text);
+}
